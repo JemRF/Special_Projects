@@ -11,7 +11,7 @@
  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
- Glenn Seaton 2024
+ ### Glenn Seaton 2024
 =============================================================
  The SplashIdtoBW-csv.py will convert all fields, but does not include any attached files for a SplashId record.
  It uses the standard SplashId CSV output.
@@ -22,3 +22,6 @@
  One additional field is the Date when that SplashId record was updated will have the imported field name "Last_Updated".
 
  I liked SplashId as a standalone tool and was using LastPass as my browser password tool. LastPass has limited extra field options and had problems with logging into domain subdomain. It would use the password for that domain and not the subdomain I was wanting.
+ Bitwarden provides the extra fields I used in SplashID and so far appears to not be confused with subdomains.
+
+
