@@ -13,8 +13,10 @@
 
  ### Glenn Seaton 2024
 =============================================================
- The SplashIdtoBW-csv.py will convert all fields, but does not include any attached files for a SplashId record.
- It uses the standard SplashId CSV output.
+#### SplashIdtoBW-csv.py
+
+ The **SplashIdtoBW-csv.py** will convert all fields, but does not include any attached files for a SplashId record.
+ It uses the standard SplashId 8.4.1 CSV output.
 
  The field column names are lost when the CSV is created.
  The fields will be recreated as Field1, Field2, Field3, Field4, and Field5
