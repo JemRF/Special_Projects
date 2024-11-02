@@ -30,7 +30,7 @@ def get_input_file():
     return file_path
 
 print("Convert SplashId csv to Bitwarden csv format.")
-print('To immport into Bitwarden select file format "Bitwarden (csv)".')
+print('To import into Bitwarden select file format "Bitwarden (csv)".')
 
 # Define input and output CSV file paths
 # Ask the user to select an input file
@@ -72,8 +72,8 @@ with open(input_file, mode='r', newline='') as infile:
         # Filter out any fields with blank values
         filtered_fields = {k: v for k, v in fields.items() if v.strip()}
         #
-        # Filter backets and  single quotes from array
-        # replace comma seperator with newline character
+        # Filter brackets and  single quotes from array
+        # replace comma separator with newline character
         fieldsout = str(filtered_fields)
         fieldsout = fieldsout.replace("{",'')
         fieldsout = fieldsout.replace("}",'')
